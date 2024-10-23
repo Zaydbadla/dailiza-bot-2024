@@ -18,6 +18,9 @@ psychobabble = [
     
     [r"Warum (.*?) (.*?) (.*?) (.*)?",["Ich weiß nicht warum {1} {2} {3} {0}.", 
                                     "Ich sollte dich fragen warum {1} {2} {3} {0}.",
-                                    "Ich glaube nicht dass {1} {2} {3} {0}."]]
+                                    "Ich glaube nicht dass {1} {2} {3} {0}."]],
+    
+    [r"Ich möchte (.*)",
+     ["Warum möchtest du {0}?", "Bist du dir sicher, dass du {0} möchtest?", "Was willst du mit {0} tun?"]]
 
 ]
