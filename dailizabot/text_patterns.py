@@ -21,6 +21,11 @@ psychobabble = [
     [r"(?:Ü|ü|Ue|ue)berse?tz(?:.{0,2})(?<![!?])",
     ["Meine Fremdsprachen-Kenntnisse sind leider so ernüchternd wie die Deinen...", 
     "Ich bin mir bei einem Teil des Textes selbst nicht sicher. Frage lieber einen Freund.",
-    "Diesen Text zu übersetzen würde bedeuten ihm die Seele zu rauben. Nicht jede Blume blüht auf jedem Felde..."]]
+    "Diesen Text zu übersetzen würde bedeuten ihm die Seele zu rauben. Nicht jede Blume blüht auf jedem Felde..."]],
+
+    [r"verfasse{0,1}|erstelle{0,1}|schreibe{0,1}|formuliere{0,1}",
+     ["Aber nur, wenn du mich korrekt zitierst!",
+      "Da brauchen wir wohl beide Hilfe bei...",
+      "Du möchtest ein Premium-Feature nutzen. Informiere dich über unsere aktuellen Tarife!"]]                             
 
 ]
