@@ -23,4 +23,19 @@ psychobabble = [
     [r"Ich möchte (.*)",
      ["Warum möchtest du {0}?", "Bist du dir sicher, dass du {0} möchtest?", "Was willst du mit {0} tun?"]]
 
+    [r"Wer ist (.*)(?<![\?\!\.\,\d\;])",
+    ["Ich habe keine Ahnung, wer {0} ist, tut mir leid",
+    "Leider darf ich keine personenbezogenen Daten mit Dritten teilen. Ich hoffe, du verstehst das!",
+    "Die Frage lautet nicht, wer {0} ist. Lass uns lieber drüber nachdenken, wer DU als Mensch sein möchtest."]],
+
+    [r"(?:Ü|ü|Ue|ue)berse?tz(?:.{0,2})(?<![!?])",
+    ["Meine Fremdsprachen-Kenntnisse sind leider so ernüchternd wie die Deinen...", 
+    "Ich bin mir bei einem Teil des Textes selbst nicht sicher. Frage lieber einen Freund.",
+    "Diesen Text zu übersetzen würde bedeuten ihm die Seele zu rauben. Nicht jede Blume blüht auf jedem Felde..."]],
+
+    [r"verfasse{0,1}|erstelle{0,1}|schreibe{0,1}|formuliere{0,1}",
+     ["Aber nur, wenn du mich korrekt zitierst!",
+      "Da brauchen wir wohl beide Hilfe bei...",
+      "Du möchtest ein Premium-Feature nutzen. Informiere dich über unsere aktuellen Tarife!"]]                             
+
 ]
