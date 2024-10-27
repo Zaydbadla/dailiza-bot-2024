@@ -9,7 +9,7 @@ psychobabble = [
     "Ich kann nicht klagen. Was ist mit dir?"]],
 
     [r"Ich brauche (.*)",
-    ["Warum brauchst du {0}",
+    ["Warum brauchst du {0}?",
     "Würde {0} dir denn wirklich helfen?",
     "Bist du sicher, dass du {0} brauchst?"]],
     
