@@ -21,7 +21,7 @@ psychobabble = [
                                     "Ich glaube nicht dass {1} {2} {3} {0}."]],
     
     [r"Ich möchte (.*)",
-     ["Warum möchtest du {0}?", "Bist du dir sicher, dass du {0} möchtest?", "Was willst du mit {0} tun?"]]
+     ["Warum möchtest du {0}?", "Bist du dir sicher, dass du {0} möchtest?", "Was willst du mit {0} tun?"]],
 
     [r"Wer ist (.*)(?<![\?\!\.\,\d\;])",
     ["Ich habe keine Ahnung, wer {0} ist, tut mir leid",
