@@ -23,5 +23,10 @@ psychobabble = [
     "Seit wann fühlst du dich {0}?",
     "Fühlst du dich oft {0}?"]],
 
+    [r"Kannst du mir bei (.*) helfen",
+     ["Was genau möchtest du über {0} wissen?",
+    "Wie kann ich dir bei {0} behilflich sein?",
+    "Erzähl mir mehr über deine Fragen zu {0}."]]
+
 
 ]
