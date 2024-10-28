@@ -39,3 +39,9 @@ psychobabble = [
       "Du möchtest ein Premium-Feature nutzen. Informiere dich über unsere aktuellen Tarife!"]]                             
 
 ]
+
+# Schritt 1: Muster hinzufügen und committen
+psychobabble.append((r'ich bin (.*)', ["Warum bist du {0}?", "Wie lange bist du schon {0}?"]))
+
+
+
