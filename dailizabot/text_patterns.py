@@ -38,4 +38,20 @@ psychobabble = [
       "Da brauchen wir wohl beide Hilfe bei...",
       "Du möchtest ein Premium-Feature nutzen. Informiere dich über unsere aktuellen Tarife!"]]                             
 
+    [r"Magst du (.*)",
+    ["Ja, {0} kann wirklich interessant sein!",
+    "Manchmal mag ich {0}, es hängt ganz vom Kontext ab.",
+    "Erzähl mir, warum du {0} magst."]],
+
+    [r"Ich fühle mich (.*)",
+     ["Warum fühlst du dich {0}?",
+    "Seit wann fühlst du dich {0}?",
+    "Fühlst du dich oft {0}?"]],
+
+    [r"Kannst du mir bei (.*) helfen",
+     ["Was genau möchtest du über {0} wissen?",
+    "Wie kann ich dir bei {0} behilflich sein?",
+    "Erzähl mir mehr über deine Fragen zu {0}."]]
+
+
 ]
