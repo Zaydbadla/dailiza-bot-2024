@@ -40,8 +40,8 @@ psychobabble = [
 
 ]
 
-# Schritt 1: Muster hinzufügen und committen
+
 psychobabble.append((r'ich bin (.*)', ["Warum bist du {0}?", "Wie lange bist du schon {0}?"]))
 
 
-
+psychobabble.append((r'Was geht', ["nichts und bei dir?"]))
