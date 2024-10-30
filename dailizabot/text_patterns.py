@@ -76,4 +76,3 @@ psychobabble.append((r"Ich brauche Motivation für (.*)",
      "Mach dir keinen Druck. Mit der Zeit wird {0} leichter.",
      "Denke daran, warum du mit {0} angefangen hast!"]))
 
-psychobabble.append((r'ich mag (.*)', ["Warum magst du {0}?", "Was gefällt dir besonders an {0}?"]))
